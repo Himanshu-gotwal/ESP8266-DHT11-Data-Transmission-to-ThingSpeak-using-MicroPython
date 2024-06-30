@@ -5,12 +5,12 @@ import urequests
 import time
 
 # Replace with your Wi-Fi credentials
-SSID = 'HIMANSHU'
-PASSWORD = '88888888'
+SSID = 'YOUR SSID'
+PASSWORD = 'YOUR PASSWORD'
 
 # ThingSpeak API parameters
-API_KEY = '2587721'
-THINGSPEAK_URL = 'http://api.thingspeak.com/update?api_key=APO2SBC7R1LSKPVO&field1=0'
+API_KEY = 'API_KEY'
+THINGSPEAK_URL = 'Api_Key_url'
 
 # DHT11 sensor connected to GPIO 4 (D2)
 dht_pin = machine.Pin(5)
